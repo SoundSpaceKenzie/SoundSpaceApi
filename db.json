@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$TT80XILBNWWr2/cf6fPnju2Btod2Ri2TH3q7ecGQeo91k11PQliqy",
+      "name": "test",
+      "playlist": "link",
+      "id": 1
+    },
+    {
+      "email": "test1@gmail.com",
+      "password": "$2a$10$pFbn4AlKIiF60k3yMoUvU.DSvokrY6hGyQZlWxTE0VXsIBcLS0VZq",
+      "name": "test1",
+      "playlist": "link",
+      "id": 2
+    },
+    {
+      "email": "test20@gmail.com",
+      "password": "$2a$10$fP1/zm.xfKG3oWro0LVV9e5t.EHJQmE3cgmn2vjj6Pfbv0aRsQHfm",
+      "name": "test3",
+      "playlist": "link",
+      "id": 3
+    },
+    {
+      "email": "testtest@gmail.com",
+      "password": "$2a$10$N./jTxGGwoRKs11arxh12.UGCHcD1wWOU9hgdCd8omPQvizH8vF9i",
+      "name": "test3",
+      "playlist": "link",
+      "id": 4
+    },
+    {
+      "email": "test12@gmail.com",
+      "password": "$2a$10$/zNeNeO26AwI9cwO2F/wRO/s5rXq5l05Qg/YqQ4mNj8B3soPW7njG",
+      "name": "test",
+      "playlist": "link",
+      "id": 5
+    }
+  ],
+  "posts": [
+    {
+      "name": "test",
+      "link": "test",
+      "like": 0,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "test1",
+      "link": "test1",
+      "like": 0,
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "text": "test",
+      "userId": 1,
+      "postId": 1,
+      "id": 1
+    },
+    {
+      "text": "test33",
+      "userId": 3,
+      "postId": 2,
+      "id": 2
+    }
+  ]
+}
