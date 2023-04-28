@@ -38,7 +38,7 @@
   ],
   "posts": [
     {
-      "name": "test",
+      "description": "test",
       "link": "test",
       "like": [
         {
@@ -52,9 +52,9 @@
       "id": 1
     },
     {
-      "name": "test1",
+      "description": "test1",
       "link": "test1",
-      "like": 0,
+      "like": [],
       "userId": 1,
       "id": 2
     }
