@@ -40,7 +40,14 @@
     {
       "name": "test",
       "link": "test",
-      "like": 0,
+      "like": [
+        {
+          "userID": 1
+        },
+        {
+          "userID": 3
+        }
+      ],
       "userId": 2,
       "id": 1
     },

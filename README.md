@@ -96,7 +96,7 @@ Devera passar o token, e o body com
 {
   "name": "test1",
   "link": "test1",
-  "like": 0,
+  "like": [],
   "userId": 1
 }
 ```
@@ -108,7 +108,11 @@ Devera passar o token, e o body com o campo q queira editar
 {
   "name": "test1",
   "link": "test1",
-  "like": 0,
+  "like": [
+    {
+      "userID": 1
+    }
+  ],
   "userId": 1
 }
 ```
@@ -142,3 +146,6 @@ Devera passar o token, e o body com
   "text": "test3",
 }
 ```
+
+DELETE /comments/:id <br />
+Devera passar o token.
