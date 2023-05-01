@@ -40,7 +40,7 @@ Caso seja sucesso ira retorna 200<br/>
 	"user": {
 		"email": "test12@gmail.com",
 		"name": "test",
-		"playlist": "link",
+		"avatar": "link",
 		"id": 5
 	}
 }
