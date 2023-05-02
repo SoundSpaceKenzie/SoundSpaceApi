@@ -6,43 +6,88 @@
       "name": "test",
       "avatar": "link",
       "id": 1
+    },
+    {
+      "email": "kenzinho@gmail.com",
+      "password": "$2a$10$ZjoBEEJPHbCqJD3Orjb8s.D8Q8LCBeDM0yRyGORSMjxE84oZwF7U2",
+      "name": "kenzinho",
+      "avatar": "link",
+      "id": 2
     }
   ],
   "posts": [
     {
+
+      "name": "test1",
+      "link": "test1",
+      "type": "Spotify",
       "description": "test",
-      "link": "test",
+
+
       "like": [
         {
           "userID": 1
         },
         {
-          "userID": 3
+          "userID": 2
         }
       ],
-      "userId": 2,
+      "userId": 1,
       "id": 1
     },
     {
-      "description": "test1",
+
+      "name": "test2",
       "link": "test1",
-      "like": [],
+      "type": "Youtube",
+      "description": "test1",
+      "like": [
+        {
+          "userID": 1
+        },
+        {
+          "userID": 2
+        }
+      ],
+
       "userId": 1,
       "id": 2
     }
   ],
   "comments": [
     {
-      "text": "test",
+      "postId": 2,
+      "text": "1",
       "userId": 1,
-      "postId": 1,
-      "id": 1
+      "id": 11
     },
     {
-      "text": "test33",
-      "userId": 3,
       "postId": 2,
-      "id": 2
+      "text": "test1",
+      "userId": 1,
+      "id": 12
+    },
+    {
+      "postId": 2,
+      "text": "1",
+      "userId": 2,
+      "id": 14
+    },
+    {
+      "postId": 2,
+      "text": "test1",
+      "id": 15
+    }
+  ],
+  "follows": [
+    {
+      "userID": 1,
+      "users": [
+        {
+          "userID": 2,
+          "name": "test2"
+        }
+      ]
     }
   ]
 }
