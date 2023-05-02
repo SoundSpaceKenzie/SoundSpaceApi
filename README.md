@@ -17,7 +17,7 @@ Devera passar o body com
   "email": "test@gmail.com",
   "password": "exemplo",
   "name": "test",
-  "playlist": "link"
+  "avatar": "link"
 }
 ```
 
