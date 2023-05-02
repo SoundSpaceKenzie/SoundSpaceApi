@@ -96,6 +96,7 @@ Devera passar o token, e o body com
 {
   "name": "test1",
   "link": "test1",
+  "type": "Spotify",
   "like": [],
   "userId": 1
 }
@@ -108,6 +109,7 @@ Devera passar o token, e o body com o campo q queira editar
 {
   "name": "test1",
   "link": "test1",
+  "type": "Youtube",
   "like": [
     {
       "userID": 1
