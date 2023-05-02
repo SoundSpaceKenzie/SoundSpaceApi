@@ -17,9 +17,13 @@
   ],
   "posts": [
     {
+
       "name": "test1",
       "link": "test1",
       "type": "Spotify",
+      "description": "test",
+
+
       "like": [
         {
           "userID": 1
@@ -32,9 +36,11 @@
       "id": 1
     },
     {
+
       "name": "test2",
       "link": "test1",
       "type": "Youtube",
+      "description": "test1",
       "like": [
         {
           "userID": 1
@@ -43,6 +49,7 @@
           "userID": 2
         }
       ],
+
       "userId": 1,
       "id": 2
     }
