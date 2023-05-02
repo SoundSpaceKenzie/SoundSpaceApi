@@ -6,6 +6,8 @@ Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configur
 
 Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
 
+### LINK PARA API https://soundspaceapi.onrender.com
+
 ### Cadastro
 
 POST /register <br/>
@@ -94,7 +96,7 @@ Devera passar o token, e o body com
 
 ```
 {
-  "name": "test1",
+  "description": "test1",
   "link": "test1",
   "type": "Spotify",
   "like": [],
@@ -107,7 +109,7 @@ Devera passar o token, e o body com o campo q queira editar
 
 ```
 {
-  "name": "test1",
+  "description ": "test1",
   "link": "test1",
   "type": "Youtube",
   "like": [
