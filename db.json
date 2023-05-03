@@ -11,18 +11,16 @@
       "email": "kenzinho@gmail.com",
       "password": "$2a$10$ZjoBEEJPHbCqJD3Orjb8s.D8Q8LCBeDM0yRyGORSMjxE84oZwF7U2",
       "name": "kenzinho",
-      "avatar": "link",
+      "avatar": "https://conteudo.imguol.com.br/blogs/174/files/2018/05/iStock-648229868-1024x909.jpg",
       "id": 2
     }
   ],
   "posts": [
     {
-
       "name": "test1",
       "link": "test1",
       "type": "Spotify",
       "description": "test",
-
 
       "like": [
         {
@@ -32,11 +30,14 @@
           "userID": 2
         }
       ],
+      "user": {
+        "name": "test",
+        "avatar": "test"
+      },
       "userId": 1,
       "id": 1
     },
     {
-
       "name": "test2",
       "link": "test1",
       "type": "Youtube",
@@ -49,7 +50,10 @@
           "userID": 2
         }
       ],
-
+      "user": {
+        "name": "kenzinho",
+        "avatar": "https://conteudo.imguol.com.br/blogs/174/files/2018/05/iStock-648229868-1024x909.jpg"
+      },
       "userId": 1,
       "id": 2
     }
