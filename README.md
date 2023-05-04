@@ -100,6 +100,7 @@ Devera passar o token, e o body com
   "link": "test1",
   "type": "Spotify",
   "like": [],
+  "user": {},
   "userId": 1
 }
 ```
@@ -117,6 +118,10 @@ Devera passar o token, e o body com o campo q queira editar
       "userID": 1
     }
   ],
+  "user": {
+    "name": "kenzinho",
+    "avatar": "https://conteudo.imguol.com.br/blogs/174/files/2018/05/iStock-648229868-1024x909.jpg"
+		},
   "userId": 1
 }
 ```
