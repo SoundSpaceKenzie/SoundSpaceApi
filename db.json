@@ -17,29 +17,8 @@
   ],
   "posts": [
     {
-      "name": "test1",
-      "link": "test1",
-      "type": "Spotify",
-      "description": "test",
-
-      "like": [
-        {
-          "userID": 1
-        },
-        {
-          "userID": 2
-        }
-      ],
-      "user": {
-        "name": "test",
-        "avatar": "test"
-      },
-      "userId": 1,
-      "id": 1
-    },
-    {
       "name": "test2",
-      "link": "test1",
+      "link": "https://youtu.be/C5fLxtJH2Qs",
       "type": "Youtube",
       "description": "test1",
       "like": [
